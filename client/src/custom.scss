@@ -1,0 +1,19 @@
+$primary: #7400d9;
+
+@import "~bootstrap/scss/bootstrap";
+
+.movie-card {
+  width: 16rem;
+}
+.movie-title {
+  min-height: 3rem !important;
+}
+.movie-details-card-header {
+  background-color: $primary;
+}
+.movie-plot {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
